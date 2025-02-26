@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    background: linear-gradient(to right , rgb(112, 112, 231), lightblue);
+}
+
+
+/* navbar style */
+
+.nav-container {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: lightblue;
+} 
+
+.nav-head {
+    float: left;
+}
+
+.nav-head a {
+    transition: color 1s ease;
+}
+
+.nav-head a:hover {
+    color: brown;
+}
+
+.nav-head a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link {
+    display: flex;
+    gap: 10px;
+    list-style-type: none;
+    margin-top: 2px;
+}
+
+.nav-link li {
+    margin-left: 20px;
+}
+
+.nav-link li a {
+    text-decoration: none;
+    color: black;
+    transition: color 1s ease;
+}
+
+.nav-link a:hover {
+    color: brown;
+}
+
+.logo-nav {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+/* content css */
+
+.content-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    width: 70%;    
+    margin-left: auto;
+    margin-right: auto;
+    border: 1.5px solid;
+}
+
+.profile-sidecontent{
+    width: 30%;
+    height: 400px;
+    background-image: url("img/Profile.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.text-image{    
+    margin-top: 130%;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.main-profile{
+    width: 70%;
+    height: 400px;
+    background: linear-gradient(to right, #00ffd9, #00c8ff);
+}
+
+.profile-image{
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+}
+
+/* icon */
+
+
+.social-links {
+    list-style-type: none;
+    display: flex;
+    gap: 10px;
+    padding: 0;
+    margin-top: 10px;
+}
+
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.social-icon:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+}
+
+.github {
+    background-color: #181717;
+}
+
+.instagram {
+    background: linear-gradient(135deg, #f9ce34, #ee2a7b, #6228d7);
+}
+
+.whatsapp {
+    background-color: #25D366;
+}
+
+
+/* About */
+
+
+.Project-Container h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.project-box-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-top: 30px;
+}
+
+
+
+.project-box{
+    border: 5px solid;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.project-img-1{
+    background-image: url(img/furnitiure.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.project-img-2{
+    background-image: url(img/afirmation.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+.project-img-3{
+    background-image: url(img/comingsoon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+}
+
+.description{
+    width: 250px;
+    height: 153px;
+    margin-left: 5px;
+    color:lightblue;
+}
+
+.project-box h5 a{
+    text-decoration: none;
+    color: #25D366;
+    margin-left: 5px;
+    transition: color ease 1s;
+}
+
+.project-box h5 a:hover{
+    color: chartreuse;
+}
+
+/* end about style */
+
+/* footer container */
+
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-color: #222;
+    color: white;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.footer-content {
+    padding: 10px;
+}
+
+.footer-content-1 {
+    width: 40%;
+}
+
+.footer-content-2 {
+    width: 40%;
+}
+
+.footer-content-3 {
+    width: 20%;
+    text-align: center;
+}
+
+.footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social-icons a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+}
